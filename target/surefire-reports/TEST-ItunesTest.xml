@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ItunesTest" time="11.734" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Bhupe\Documents\itunes\target\test-classes;C:\Users\Bhupe\Documents\itunes\target\classes;C:\Users\Bhupe\.m2\repository\org\testng\testng\7.5.1\testng-7.5.1.jar;C:\Users\Bhupe\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Bhupe\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Bhupe\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Bhupe\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Bhupe\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Bhupe\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Bhupe\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Bhupe\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Bhupe\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Bhupe\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Bhupe\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Bhupe\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Bhupe\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Bhupe\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Bhupe\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Bhupe\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Bhupe\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Bhupe\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Bhupe\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Bhupe\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Bhupe\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Bhupe\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Bhupe\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Bhupe\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Bhupe\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\Bhupe\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Bhupe\AppData\Local\Temp\surefire12396236552274503233\surefirebooter-20240218105953008_3.jar C:\Users\Bhupe\AppData\Local\Temp\surefire12396236552274503233 2024-02-18T10-59-51_200-jvmRun1 surefire-20240218105953008_1tmp surefire_0-20240218105953008_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="ItunesTest#testSearchMusicByArtist"/>
+    <property name="surefire.test.class.path" value="C:\Users\Bhupe\Documents\itunes\target\test-classes;C:\Users\Bhupe\Documents\itunes\target\classes;C:\Users\Bhupe\.m2\repository\org\testng\testng\7.5.1\testng-7.5.1.jar;C:\Users\Bhupe\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Bhupe\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Bhupe\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Bhupe\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Bhupe\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Bhupe\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Bhupe\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Bhupe\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Bhupe\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Bhupe\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Bhupe\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Bhupe\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Bhupe\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Bhupe\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Bhupe\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Bhupe\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Bhupe\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Bhupe\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Bhupe\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Bhupe\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Bhupe\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Bhupe\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Bhupe\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Bhupe\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Bhupe\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\Bhupe\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Bhupe"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Bhupe\Documents\itunes"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Bhupe\AppData\Local\Temp\surefire12396236552274503233\surefirebooter-20240218105953008_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.name" value="Bhupe"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Bhupe\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Bhupe\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="C:\Users\Bhupe\Documents\itunes"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Git\cmd;C:\Users\Bhupe\Documents\apache-maven-3.9.6\bin;C:\Users\Bhupe\AppData\Local\Microsoft\WindowsApps;C:\Users\Bhupe\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testSearchMusicByArtist" classname="ItunesTest" time="7.288">
+    <system-out><![CDATA[[Configuration] [WARN] Detected a static method [ItunesTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+HTTP/1.1 200 OK
+x-apple-jingle-correlation-key: FMT2YOHNFQCRUAWLBGEXTKFXRE
+x-apple-request-uuid: 2b27ac38-ed2c-051a-02cb-098979a8b789
+x-apple-translated-wo-url: /WebObjects/MZStoreServices.woa/ws/wsSearch?term=Jack%20Johnson&entity=allArtist&attribute=allArtistTerm&urlDesc=
+apple-tk: false
+x-b3-spanid: 19c6db893b3e7918
+Content-Type: text/javascript; charset=utf-8
+b3: 2b27ac38ed2c051a02cb098979a8b789-19c6db893b3e7918
+x-content-type-options: nosniff
+x-b3-traceid: 2b27ac38ed2c051a02cb098979a8b789
+x-webobjects-loadaverage: 0
+x-responding-instance: MZStoreServices:2006607:::
+apple-seq: 0
+content-disposition: attachment; filename=1.txt
+apple-originating-system: MZStoreServices
+Content-Encoding: gzip
+strict-transport-security: max-age=31536000
+x-apple-orig-url: https://mzstoreservices-int-st.itunes.apple.com/search?term=Jack%20Johnson&entity=allArtist&attribute=allArtistTerm
+x-apple-application-site: ST11
+apple-timing-app: 106 ms
+x-apple-application-instance: 2006607
+Content-Length: 786
+Vary: Accept-Encoding
+Cache-Control: max-age=72649
+Date: Sun, 18 Feb 2024 05:30:01 GMT
+X-Cache: TCP_HIT from a184-28-235-134.deploy.akamaitechnologies.com (AkamaiGHost/11.4.1-53905076) (-)
+X-True-Cache-Key: /L/itunes.apple.com/search vcd=2897 ci2=attribute=allArtistTerm&entity=allArtist&term=Jack%20Johnson///
+Connection: keep-alive
+X-Apple-Partner: origin.0
+
+{
+    "resultCount": 19,
+    "results": [
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Jack Johnson",
+            "artistLinkUrl": "https://music.apple.com/us/artist/jack-johnson/909253?uo=4",
+            "artistId": 909253,
+            "amgArtistId": 468749,
+            "primaryGenreName": "Rock",
+            "primaryGenreId": 21
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Jack & Jack",
+            "artistLinkUrl": "https://music.apple.com/us/artist/jack-jack/944171951?uo=4",
+            "artistId": 944171951,
+            "primaryGenreName": "Pop",
+            "primaryGenreId": 14
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Big Jack Johnson",
+            "artistLinkUrl": "https://music.apple.com/us/artist/big-jack-johnson/60808647?uo=4",
+            "artistId": 60808647,
+            "amgArtistId": 391,
+            "primaryGenreName": "Blues",
+            "primaryGenreId": 2
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Jack Johnson",
+            "artistLinkUrl": "https://music.apple.com/us/artist/jack-johnson/548543874?uo=4",
+            "artistId": 548543874,
+            "primaryGenreName": "House",
+            "primaryGenreId": 1048
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Big Jack Johnson & The Oilers",
+            "artistLinkUrl": "https://music.apple.com/us/artist/big-jack-johnson-the-oilers/6499459?uo=4",
+            "artistId": 6499459,
+            "primaryGenreName": "Blues",
+            "primaryGenreId": 2
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Jack Johnson",
+            "artistLinkUrl": "https://music.apple.com/us/artist/jack-johnson/1278478120?uo=4",
+            "artistId": 1278478120,
+            "primaryGenreName": "Country",
+            "primaryGenreId": 6
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Jack Johnson",
+            "artistLinkUrl": "https://music.apple.com/us/artist/jack-johnson/435621392?uo=4",
+            "artistId": 435621392,
+            "primaryGenreName": "Christian",
+            "primaryGenreId": 22
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Big Jack Johnson With the Cornlickers",
+            "artistLinkUrl": "https://music.apple.com/us/artist/big-jack-johnson-with-the-cornlickers/317538081?uo=4",
+            "artistId": 317538081,
+            "primaryGenreName": "Blues",
+            "primaryGenreId": 2
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Jack Johnson",
+            "artistLinkUrl": "https://music.apple.com/us/artist/jack-johnson/1452925767?uo=4",
+            "artistId": 1452925767,
+            "primaryGenreName": "R&B/Soul",
+            "primaryGenreId": 15
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Jack Johnson and His Orchestra",
+            "artistLinkUrl": "https://music.apple.com/us/artist/jack-johnson-and-his-orchestra/61762000?uo=4",
+            "artistId": 61762000,
+            "primaryGenreName": "Jazz",
+            "primaryGenreId": 11
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Jack Evan Johnson",
+            "artistLinkUrl": "https://music.apple.com/us/artist/jack-evan-johnson/904390688?uo=4",
+            "artistId": 904390688,
+            "primaryGenreName": "Rock",
+            "primaryGenreId": 21
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Jack's Johnson",
+            "artistLinkUrl": "https://music.apple.com/us/artist/jacks-johnson/1199288400?uo=4",
+            "artistId": 1199288400,
+            "primaryGenreName": "Rock",
+            "primaryGenreId": 21
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Big Jack Johnson and the Jelly Roll Kings",
+            "artistLinkUrl": "https://music.apple.com/us/artist/big-jack-johnson-and-the-jelly-roll-kings/261230766?uo=4",
+            "artistId": 261230766
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Jack Hamma Johnson",
+            "artistLinkUrl": "https://music.apple.com/us/artist/jack-hamma-johnson/128540930?uo=4",
+            "artistId": 128540930,
+            "amgArtistId": 935801,
+            "primaryGenreName": "Hip-Hop/Rap",
+            "primaryGenreId": 18
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Bumpy Johnson Jack Rabbit , Crook",
+            "artistLinkUrl": "https://music.apple.com/us/artist/bumpy-johnson-jack-rabbit-crook/252403218?uo=4",
+            "artistId": 252403218
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Jack Alan Johnson",
+            "artistLinkUrl": "https://music.apple.com/us/artist/jack-alan-johnson/1254322757?uo=4",
+            "artistId": 1254322757,
+            "primaryGenreName": "Blues",
+            "primaryGenreId": 2
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Jack Richard Johnson",
+            "artistLinkUrl": "https://music.apple.com/us/artist/jack-richard-johnson/1610911720?uo=4",
+            "artistId": 1610911720,
+            "primaryGenreName": "Electronic",
+            "primaryGenreId": 7
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Jack Tyler Johnson",
+            "artistLinkUrl": "https://music.apple.com/us/artist/jack-tyler-johnson/1458048450?uo=4",
+            "artistId": 1458048450
+        },
+        {
+            "wrapperType": "artist",
+            "artistType": "Artist",
+            "artistName": "Jack J Johnson",
+            "artistLinkUrl": "https://music.apple.com/us/artist/jack-j-johnson/1482887828?uo=4",
+            "artistId": 1482887828,
+            "primaryGenreName": "Pop",
+            "primaryGenreId": 14
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+</testsuite>
